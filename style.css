@@ -125,7 +125,7 @@ main {
     top: 0;
   }
   100% {
-    top: -160px;
+    top: -155px;
   }
 }
 
@@ -135,7 +135,7 @@ main {
 
 @keyframes closePaper {
   0% {
-    top: -160px;
+    top: -155px;
   }
   100% {
     top: 0;
