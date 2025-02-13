@@ -16,7 +16,7 @@ video,
 svg {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 110%;
 }
 
 body {
@@ -60,11 +60,11 @@ main {
 }
 
 .cover {
-  position: absolute;
+  position: absolute ;
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
-  border-top: 100px solid #fc0000;
-  border-bottom: 100px solid transparent;
+  border-top: 115px solid #fc0000;
+  border-bottom: 115px solid transparent;
 
   /*  */
   transition: transform 1.75s;
@@ -82,14 +82,23 @@ main {
   width: 390px;
   height: 180px;
 
-  transition: all 3s;
+  transition: all 5s;
+}
+
+.found_paper {
+  position: absolute;
+  z-index: -2;
+  background: rgb(255, 0, 0);
+  width: 400px;
+  height: 180px;
+
 }
 
 .letter {
   border-left: 200px solid #fc989e;
   border-right: 200px solid #ff989e;
   border-top: 100px solid transparent;
-  border-bottom: 100px solid #ff858a;
+  border-bottom: 100px solid #ff7176;
 }
 
 .options {
@@ -122,10 +131,10 @@ main {
 
 @keyframes openPaper {
   0% {
-    top: 0;
+    top: 0px;
   }
   100% {
-    top: -155px;
+    top: -165px;
   }
 }
 
@@ -151,9 +160,9 @@ main {
   margin: auto;
   font-size: 5rem;
 
-  color: #ff0000;
+  color: white;
 
-  animation: crecer 2s forwards ;
+  animation: crecer 3s forwards ;
 }
 
 @keyframes crecer {
