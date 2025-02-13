@@ -130,7 +130,7 @@ main {
 }
 
 .close-paper {
-  animation: closePaper 1s forwards;
+  animation: closePaper 0.75s forwards;
 }
 
 @keyframes closePaper {
