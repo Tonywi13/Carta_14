@@ -67,7 +67,7 @@ main {
   border-bottom: 100px solid transparent;
 
   /*  */
-  transition: transform .75s;
+  transition: transform 1s;
   transform-origin: top;
 }
 
